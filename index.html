@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfólio</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="img/LogoJV.png" type="image/x-icon" sizes="32x3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+<body class="show">
+
+    <header>
+        <nav>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu()">HOME</a></li>
+                <li><a href="#sobre-mim" onclick="toggleMenu()">SOBRE MIM</a></li>
+                <li><a href="#tecnologias" onclick="toggleMenu()">TECNOLOGIAS</a></li>
+                <li><a href="#projetos" onclick="toggleMenu()">PROJETOS</a></li>
+                <li><a href="#contato" onclick="toggleMenu()">CONTATOS</a></li>
+                <li><a href="./certificados.html" target="_blank" onclick="toggleMenu()">CERTIFICADOS / CURSOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ********** HOME ********** -->
+    
+    <section class="home" id="home">
+        <img src="./img/PerfilJV.png" alt="">
+
+        <div class="txtHome">
+            <h1>EAI, EU SOU O <span>JOAO VICTOR</span></h1>
+        </div>      
+
+        <a href="https://drive.google.com/file/d/1NwXFYwYuEpYjozfYnmqDXJlRBLw6Tgr3/view?usp=sharing" target="_blank" class="btn">Curriculo</a>
+
+        <hr>
+    </section>
+    
+    <!-- ********** SOBRE MIM ********** -->
+    <section class="sobre-mim" id="sobre-mim">
+        <div class="heading">
+            <h2>Sobre mim</h2>
+        </div>
+
+        <div class="content">
+            <div class="contentBx">
+                <p>Meu nome é João Victor, tenho 20 anos e sou mais um apaixonado pela tecnologia...</p>
+                <p>Me formei em 2022 pela FIAP em Análise e Desenvolvimento de Sistemas, atualmente estou estudando no portal da ALURA contéudos voltados para a tecnologia, tenho interesse em desenvolvimento Web e UI/UX Designer.</p>
+                <p>Tenho conhecimentos em Html, Css, JavaScript, Bootstrap, React, TypeScript, NodeJS, Git, GitHub, Figma!</p>
+    
+            </div>
+          
+        </div>
+    </section>
+
+    <!-- ********** SKILLS ********** -->
+    <section class="tecnologias" id="tecnologias">
+        <div class="heading">
+            <h2>Habilidades</h2>
+        </div>
+
+        <div class="content">
+            <div class="card">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEFElEQVR4nO3cW4hNURgH8D/l8qBcIkTJFHmW5IlcCg+US4p4cXs0eTDlTW7z5BLF1BiKIg+UKTyMW5KHocTUPNBQvGCSXGYow9KqdeprWfsY09a311r/r1bNWd86+5z+vzln77PPngFYLBaLxdKpPgAmknEGwHAkXjGBmBxQYgMxqaPECGJSRokFpCsw1wJgGBKrWEA2AzicwyslJhDkgBIbSPIoMYIkjRIrSLIoMYPYak4NJXaQ5FBSAEkKJRWQZFBSAkkCJTWQ6FFSBIkaJVWQaFFSBokSJXWQ6FByAIkKJReQaFByAokCJTeQyqPkCFJplFxBKouSM4itY4HHOg3FigWkDcDO/zSee49lMyEI9NEJAv3wCQL9wAkC/ZAJAv1gCQL9MAlSgQANQfRDMwTRD8oQRD8cQxD9QAxB9EMwFRo8lwV9BIJAP3iCQD9sgkA/YIJAP9RkQRoBNLixPdC/LfoNAL4CGPDm6o0FYlsXvd7DOs9rtVg3PxCo3M6tlEA2irWrAv12b3ufAfz4h8efKrZlLzqQdajgOfUDGCnWjfb6X7ztXCPI0ECavN7KgiDvBrbznSDFr5BfAB6LYS9QkHVd9J6KIO0FB7LGurc/H+RgAOQdQYpBjDceeGteF/zmrw8E/SSwbkVg3QuClA+yzPXHibUnvDU/RX+CWPeIIOWDzHX9RSL0Dd6aZ2I78hUlj6S4Uy8JZKbYmS90P0/x1pxy82PcUVitruQIsgRAjzdaSwQZ7/prAewq2D9sEa+i42JNW44gg6nPQwT5KS5yttfxnhfrz4l1c9zcHu8a3KMEKRfkg+jbw9+X4vY2t+aTQLNvUWfFmn05goxwbyty2PfyMkB6RL/RzU13t2e72/e8bdhTLbXanSPIYE+dmCGA2A+JtdrrPbb9R5fvARxxt6e5/lVxn60EKRekQ/QPuDm5j7gBYJPYx9j+TdG3BwJ8hZQIcjnwRzTdYm6/e+uSR1Ryu0sJUu4rpEX0W92cPSc22c0tFjv0V65vz4PVah5BygVpFv1Ldc5vzRA9eSQ2iyDlgjSJfruYP+ndV+68e8X8JIKUC7JD9O94/2Jc1gXRs9+B1GpUHZDlgb8rlIfJPOzFnyGsEwF2inm7H5koem+8+8lvDr8VgITKnikmSB0Qe56sVt1eb433AVEOeQr+bQ4gXe4zQkfBl0W9ot9R8A3fR29N7TdZjk7R7//Lc5LjfuB+A97jhca9WEFyHH0EgToCQaAfPEGgHzZBoB8wQaAfKkEqEKQhiH54hiD6gRmC6IdkCKIfjCGIfhimAoOnTqCPQBDoB08Q6IdNEOgHTBDoh0qQCgRpCKIfniGIfmCGIPohGYLoB2MIoh+GqcDgqRPoIxAE+sFXEoTFYrFYyLZ+A8G7d8SMus69AAAAAElFTkSuQmCC" alt="">
+                <p>HTML5</p>
+            </div>
+
+            <div class="card">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFCklEQVR4nO2cWYgdRRSGv0SNxgUVI2hEcCdIMD6pID7EjYAKah4URNwgYoKK0YAPorggGuKCOu4K4gruIvhgFEEMCuqEkERRkOC+YIKYGMdlSg5Uk0pZ3T0Z7tzTVX1+qIfpe6p6+v+6q2vpKjCZTCaTaXhymaWPgf0oWC7DNArMolC5TNN64EAKlMs4fQ4cRGFymaW10d9fAAdTkFxm6XrgmujYBuBwClGOQETXRse/Bo6kAOUKRLQs+u1HYC6ZK2cgopui338CjiFj5Q5EdHMUsxE4jkxVAhDRrVHcJuAEMlQpQES3RbGbgflkppKAiG6P4rcAp5KRSgMiuiPK8wdwOpmoRCCiO6N8Y8DZZKBSgUwD7k9AOZeOq1QgFZQHovz/ABfSYZUMpIIykoByMR1V6UAqKA9F5YwDS+ig+gCkgvJwAsrVdEx9ASKaDjyVgLKUDqlPQEQ7AU8nyr2RjqhvQCoozyTKlg6luvoIpILybKL85Sirr0AqKM8nzvGgbwSoqM9ARLsArybO84hvBAxdfQcimgG8njjX4yhI22DXASBNUIYubYNdx5MBQR+CAUHfeAOCvtkGBH2DDQj6phqQDhjpDIi+ec6A6BvmDIi+Sc6A6BvjDIi+Ga4DyYZO0IdgQNA3vndANu9A7G87WPZW4E8D0mzSFuAe4CRgZjA7d1hi3uEbv17w6GCWTvLMA1Ykyh73s3xnAvsEN9cB/tvddfaEbG/YOy27LLwcxIqxezXEnhyV/bsH0aR3Dcg2w17yT0KTvvWxH/mZuiZdF5m7sCV+ml/OZu8Q4LPE3T4dOA+4z1dhVwRmyd0fal8/RfuEX54mi2xeCOJXJQCc4sse8Z+Fnmgv9W2GnROZNRNYWWPQRv8ZTnhnj7bc2fKeCXWWtbKaN4KJP5tZ3hD/aRQ7awLVTFxd3WtA6s26KzJrD/8Crov/KoqXJ2R1i8GX2hMy8ZejVB+hFrTE/5vYxUdaZu835HmS/+sy38R2U5SGrkH943OicpdNII98shlLqr3LazqHskbwkEQeOfaWAdnerP1blia7mg7eBTU3inQgP0zkWV3Tb5Eq78op6LEPXYP6x2dM8oU75o1Mfdy8Z03LS0AdWnM953vQvQcSDmGktrlwLelNYHZNdfRXIl6qtItqoMTrCXv5hEgVE2rRJMrYVDMs8lxDnjcSVdgRA3xKimllHTvJcv72g4qhFrfkeSVxXd/3HYhUUbHWTrIs2f8q1MKWeFl3vluUZ7TvQGR30Fjza+r/tiTjXaGWtMT/kmgU/NB3IJLOqIGyyldFY34Asoq/Afgg6Nht9QOL8WhxtcLpbeAxP38yHtwIp0Xxcwd4TVkD+dI3VZu0s4cjeyOG2rtmCdk8XyVJ+VcFx6WZvXvNOcIR4l4DqSan6oyqtMGPArdptodclT2R3eGWDvh6sgdSVSMLGhZNvge8COxa87vc/ZcAP0flHt9wHUcN+MkoCkiVvvN9iBV+k8oRD2Ms6NzJGNSjwC1+xPg14NeGMtd44+/2eWS17Cd+sHIqrqEoIK6AZEDQh2BA0DfegKBvtgFB32ADgr6pBqQDRjoDom+eMyD6hjkDom+SMyD6xjgDom+G60CyoRP0IRgQ9I03IOibbUDQN9iAoG+qAemAkc6A6JvnDIi+Yc6A6JvkDIi+Mc6A6JvhOpBs6AR9CAYEfeMNCPpmGxD0DTYg6JuaFRCTyWQymUT/AUdl1qs4JDRVAAAAAElFTkSuQmCC" alt="">
+                <p>CSS3</p>
+            </div>
+
+            <div class="card">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFJUlEQVR4nO2dW8gVVRTH//bZDSypNMF6yE+LgnroC0IqEqwHXwoU9MFLQaRd6EIRRYlp1EM9BBpUaJAPlXfxhj5UVJBoUT0EfYFGZRSY0aEsTEz7dqxaHA5ezpk1e6+1Z+asH+y3c87M/H9nz5nZe886gOM4juPoMgfAzwCCN5TJ4CBnmISzAPzhIhD7ZTzMWUZznstAqjMDZZkEsuunK0Rl8DsSst+FIPYLuS+lkN0uBLFCPk4pZLMLQayQTSmFvOZCECvk1ZRClroQxAp5NqWQ+10IYoXcl1LITBeCWCGUYTJudiGIFXJTSiFTXAhihUxOKeQCF4JYIWOQmCMuBWVlUHbJ+d6FoKyQ7zSEfOJCUFbIXg0h21wIygrZqiFklbGQXsS+P4YxwmOh7JLzggtpMyjM4nko8LALaTNVmMVDUIAm6f2U9T93CrOYDQWmuZA29wqzuBUKXO1C2iwWZkHZJeciF9JmuTALyi45owAc88ve/1gjyOEYZ6fCTw0SEozaj1DkCxcCqZDPNYXsciGQCtmpKWS1C4FUyJuaQl50IZAKoczUeNyFQCrkMU0h81wIpELmagq53YVAKuQ2TSHXuRBIhVyrKeRSFwKpEMpMDXok67iRlF5ovz9FOwFgAMpYPfzZBCGUlTpfuhAUFUJZqfOeC0FRIe9aCHm7D4T8xoOCG/hOexFf8g/yw5tFj+EtGPByQ4S0AHwK4B0AzwGYz4sXxnV5zzkARgTHQFmp82RDhJThcuExUFbq3N3HQoaEx0BZqTOjj4XMEB4DvV6doT4WcpfwGK6HAZf1sZAnhMcwEQacLbzSaJKQlwT7P8JZmdDqUyGrBfv/Kwz5umFCBgBcBWBWj9ftFOw/ZWTGhzUWMpHvuh8FsJIL6xzpuEPvxmeC/aeMzFhXAyHjAUwH8AgHv6dA3S96jrIbPwj2fz0MWVEDIaFEo4WA3Tgq+CzKyIzFDRXyfpftjRV+1jMwRPJ8xCCPlm4QjpTmELKxy/auFH4WZWTGHSWDHQ3gBgDLeHj7n4oJWZWw3gtlZMaNib7p4/lxr5WnWVmfQwjd+KWqiEQZmXFFIiEnL6AYAvA0gI8KvD7lvDdNJC3oMReyUPi5lJEZ5ysIkVJWwHE+XS7j02fR4sZLhNuhjEwpWstXiyBo3/JpkU6PF5bc3iuC7VE25hSt5atF6NHo5vUenuVLwVqBkG+QgaK1fLUIxtv9QCCEsjGnaC1fLYLxdr8SCKFszClay5fuPZog5JBAyOvIwFLBD9wWLjU7qYZCJvASoRMCIXQFZ84Dgh080xUPjQ9VTchoALfwArleowlnavTlM2dWSSEp7glSC+kcbztctRq9OWv5/sKhLOLFFFpCLukYsjmgcByUjTkWtXyH+dRBM3znRggZ4B74FC8W/1t5vykbc6xr+f7JdR8f5KLEvV4/mX/ntmT4h6CyowHReC1fnCLjL2TEa/lCPC+vitfyxSlCKJNsbDc+N4caNPqdy8YbFQggVKxRJtmwruUbatAok2xY1/INNWiUSTasa/mGGrRkf0Jch1q+oQaNMsnGNRUIIFSsUSbZuLgCAYSKNcokG6OEK8Kb3g5o1ugtylS+O7V4zC1UtI1wEQLKojKM65hjOFiBkILB6POOgnM32emcf9hdcho0VLB1zs+YPdCpQV17T0swg1lbqt57hpvSC+rae1r90Auq3nuG+70X5O49Le8F+XvPsPcCWyZwPap1vJ7rEP/zzQLtWrmO4ziOgwryL/dlVm4KfonWAAAAAElFTkSuQmCC" alt="">
+                <p>JAVASCRIPT</p>
+            </div>
+
+            <div class="card">
+                <img src="data:image/png;base64,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" alt="">
+                <p>REACT</p>
+            </div>
+
+            <div class="card">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAABfCAYAAACOTBv1AAAACXBIWXMAAAsTAAALEwEAmpwYAAAD1klEQVR4nO2dTYhOURjHf2N8jWgoGQsL2U7EUBY2oiRREiuFjQ2ZSdQsB/nIQpExMswkIVGysPKVlLGR1fgqX9MQG5RMLMZ7dDij15hmzjvvuee53vP86795e+s+/e5zn/Pcc889F/7VIuAk8BzoA4ya0TKw/J4BbUADw2gScBYoKGyySDjLtROoGQr8A4VOjKu8a/AJsBmv5YVoDDqKa7yWGqImX2FgDLCDq2Y90Rm04roahU90Bk8tfG0nEUm+rxa+Zj1iDBQ+Cp8Ur0DxAEzCFg/AJGzxAEzCFg/AJGzxAEzCFg/AJGzxAEzCFg/AJGzxAEzCjnKQT8DliL4K3AYeAu9Th28hSKoOWAXsB17nAHpS8Is1BlgGXFf4sloDvNHMl1MtcFPLjpzGAze05stpukBnlNyAO5w2pwx/CdBchhuBLcAKl8mlqjryAJwr+C2BFybddf19KTqg8Al68o+WAH+pwif41bfVE/40hU9w+D1AlQd8+5/vkU5AxdZ8M4TrPePoVfgEh7/RE/5jhU9w+E2e8N8qfILD3+XZ639T+ASHv8kD/txI4K2jHOR/GnB3KHyCg7evZPrIJopmPmEhrPUAvzwi+GTKTovHsWsitphJwO8F1nne1V6MDD538BuBl2X4CXAPOAWsB8Z5tpbtAuBzBz+2ZgN3hMAnC38qsAf4Igg+WfgrgUtuJZ3CF1y1YO96X2jmy2kCcEzLjqy2p1zza4E5ATwTmDjKE3AoVfhNGczntLttbXxVFXHjp4qGb4p8xT0c99HiSHsQJQPfuK5mhmcsMRbPJgXfALc8Y7EtqMInPAQ7dTySpgD9mvkEh28n3nzUrfDJZostD51T+ASHbyfUfHRQ4RMcfsG9GDeSmjMedDMf0fPW7Rjgo2c82xQ+weE/8oS/W+ETHP4RT/iHFT7B6/18T/jXFD5B4Z8vYYLtg8InaK2f7Al/UYSBP/MD5KHbKbgbJjtl4Kt9Cp+ygHe7T2bMozRVR9rguyKfZNV5LpgabvGWSQ1+HlTvdvhW+JE1K/JmSJr5RW+k9EQEr/CBscDOiO9hKXx+dzQbIjwwUfiDBtS9wCtB6BVddqpcu2nr+Go3L38BeJcD4NHh97sVwVn7cw6A5g6+GoVvcpYI4gGYhC0egEnY4gGYhC0egEnY4gGYhC0egEnY4gGYhC0egEnY+j1cBL+Hq1+CRgT+r2XqbTm4/EyCPm7hL4z05p2aPwx+AAsG5r87FQ4xk+PM4C2uuvQEEAP8fcf7L9kfOrQEkWWpOT3StgQNwAk3Gvfp1UA5wC0/y7G1uMYP6CdD8OTRQHxD3wAAAABJRU5ErkJggg==" alt="">
+                <p>BOOTSTRAP</p>
+            </div>
+        </div>
+
+        <hr>
+
+    </section>
+
+    <!-- ********** PROJETOS ********** -->
+    <section class="projetos" id="projetos">
+        <div class="heading">
+            <h2>Alguns Projetos</h2>
+        </div>
+
+        <div class="content">
+            
+            <div class="casos">
+                <a href="https://joaovictormartinssilva.github.io/E-commerce/" target="_blank">
+                    <img src="./img/projetos/Projeto-Loja.png" alt="" >
+                </a>
+                <div>
+                    <div class="overlay">
+                        <h3>E-commerce</h3>
+                        <span>HTML - CSS - JS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="casos">
+                <a href="https://joaovictormartinssilva.github.io/Calculadora-de-IMC/" target="_blank">
+                    <img src="./img/projetos/ProjetoIMC.png" alt="">
+                </a>
+                <div>
+                    <div class="overlay">
+                        <h3>Calculadora de IMC</h3>
+                        <span>HTML - CSS - JS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="casos">
+                <a href="https://joaovictormartinssilva.github.io/Loja-Nike/" target="_blank">
+                    <img src="./img/projetos/ProjetoNike.png" alt="">
+                </a>
+                <div>
+                    <div class="overlay">
+                        <h3>Site Nike</h3>
+                        <span>HTML - CSS - JS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="casos">
+                <a href="https://joaovictormartinssilva.github.io/Clone-Iphone-/" target="_blank">
+                    <img src="./img/projetos/ProjetoCloneIphone.png" alt="" >
+                </a>
+                <div>
+                    <div class="overlay">
+                        <h3>Clone da página do Iphone</h3>
+                        <span>HTML - CSS - JS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="casos">
+                <a href="https://joaovictormartinssilva.github.io/Projeto-Alurex/" target="_blank">
+                    <img src="./img/projetos/ProjetoAlurex.png" alt="">
+                </a>
+                <div>
+                    <div class="overlay">
+                        <h3>Site de programação</h3>
+                        <span>HTML - CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="casos">
+                <a href="https://github.com/JoaoVictorMartinssilva?tab=repositories" target="_blank">
+                    <img src="./img/projetos/ProjetoGitHub.png" alt="">
+                </a>
+                <div>
+                    <div class="overlay">
+                        <h3>Clique para ver mais</h3>
+                        <span>GITHUB</span>
+                    </div>
+                </div>
+            </div> 
+            
+            
+        </div>
+    </section>
+
+    <!-- ********** CONTATO ********** -->
+
+    <section class="contato" id="contato">
+
+        <hr>
+
+        <div class="heading">
+            <h2>Contatos</h2>
+        </div>
+        <div class="redes-sociais">
+            <ul data-anime="buttom" class="icons">
+                <li ><a href="https://www.instagram.com/jv__martins_/" class="fab fa-instagram fa-2x" target="_blank"></a></li>
+                <li><a  href="https://www.linkedin.com/in/joao-victor-martins-4aa996207/" class="fab fa-linkedin fa-2x" target="_blank"></a></li>
+                <li><a  href="https://github.com/JoaoVictorMartinssilva" target="_blank" class="fab fa-github fa-2x"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right top, #6341e9, #909ec7, #7aafbf, #5341e9, #6341e9);
+}
+
+.container {
+  width: 1150px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.container .card {
+  position: relative;
+  padding: 10px;
+  width: 300px;
+  background-color: #fff;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.container .card img {
+  transition: 0.5s;
+}
+
+.container .card h1 {
+  font-size: 2rem;
+}
+
+.container .card .content {
+  padding: 20px;
+  text-align: center;
+}
+
+.container .card .content p {
+  color: #666;
+  transition: 0.5s;
+}
+
+.container .card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: 0.5s;
+  outline: none;
+  margin-top: 20px;
+}
+
+.container .card:hover {
+  background-color: #dc2e69;
+  color: white;
+  margin-top: -30px;
+  box-shadow: 2px 20px 25px #dc2e685d;
+  border-color: #dc2e69;
+}
+
+.container .card:hover img {
+  filter: invert(1);
+}
+
+.container .card:hover .content p {
+  color: white;
+}
+
+.container .card:hover .content a{
+  color:rgba(253, 253, 253, 0.637);
+  background-color: white;
+}
+
+/*----------------------------------------------*/
+/*Cor dos botões*/
+.container .card .content .a1{
+  background: linear-gradient(to right, #3ebf42, #0780e7);
+}
+.container .card .content .a2{
+  background: linear-gradient(to right, #66fff2, #492483);
+}
+.container .card .content .a3{
+  background: linear-gradient(to right, #04af5f, #4b2f77);
+}
+.container .card .content .a4{
+  background: linear-gradient(to right, #0bb8ec, #d61a81);
+}
+.container .card .content .a5{
+  background: linear-gradient(to right, #3ebf42, #0780e7);
+}
+.container .card .content .a6{
+  background: linear-gradient(to right, #0bb8ec, #d61a81);
+}
+.container .card .content .a7{
+  background: linear-gradient(to right, #66fff2, #492483);
+}
+.container .card .content .a8{
+  background: linear-gradient(to right, #04af5f, #4b2f77);
+}
+.container .card .content .a9{
+  background: linear-gradient(to right, #0bb8ec, #d61a81);
+}
+
+.container .card .content .a10{
+  background: linear-gradient(to right, #3ebf42, #0780e7);
+}
+
+.container .card .content .a11{
+  background: linear-gradient(to right, #0bb8ec, #d61a81);
+}
+
+.container .card .content .a12{
+  background: linear-gradient(to right, #66fff2, #492483);
+}
+.container .card .content .a13{
+  background: linear-gradient(to right, #04af5f, #4b2f77);
+}
+.container .card .content .a14{
+  background: linear-gradient(to right, #0bb8ec, #d61a81);
+}
+.container .card .content .a15{
+  background: linear-gradient(to right, #3ebf42, #0780e7);
+}
+.container .card .content .a16{
+  background: linear-gradient(to right, #0bb8ec, #d61a81);
+}
+.container .card .content .a17{
+  background: linear-gradient(to right, #66fff2, #492483);
+}
+.container .card .content .a18{
+  background: linear-gradient(to right, #04af5f, #4b2f77);
+}
+.container .card .content .a19{
+  background: linear-gradient(to right, #0bb8ec, #d61a81);
+}
+.container .card .content .a20{
+  background: linear-gradient(to right, #3ebf42, #0780e7);
+}
+.container .card .content .a21{
+  background: linear-gradient(to right, #0bb8ec, #d61a81);
+}
+.container .card .content .a22{
+  background: linear-gradient(to right, #66fff2, #492483);
+}
+.container .card .content .a23{
+  background: linear-gradient(to right, #04af5f, #4b2f77);
+}
+.container .card .content .a24{
+  background: linear-gradient(to right, #0bb8ec, #d61a81);
+}
+.container .card .content .a25{
+  background: linear-gradient(to right, #3ebf42, #0780e7);
+}
+.container .card .content .a26{
+  background: linear-gradient(to right, #0bb8ec, #d61a81);
+}
+.container .card .content .a27{
+  background: linear-gradient(to right, #66fff2, #492483);
+}
